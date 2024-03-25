@@ -1,0 +1,22 @@
+/*imports bootstrap*/
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+
+// abstracts
+@import 
+'abstracts/variables',
+'abstracts/custom_bootstrap';
+// vendors
+// base
+@import 
+'base/base',
+'base/typography';
+// layout
+@import
+'layout/testimony',
+'layout/main',
+'layout/navbar';
+// components
+// pages
+// themes
