@@ -12006,4 +12006,19 @@ body {
 }
 .contacto__info--box {
   padding: 7px;
+}
+
+#carouselExampleIndicators .image1 {
+  -o-object-position: center;
+     object-position: center;
+}
+
+#carouselExampleIndicators .image2 {
+  -o-object-position: top;
+     object-position: top;
+}
+
+#carouselExampleIndicators .image3 {
+  -o-object-position: top;
+     object-position: top;
 }/*# sourceMappingURL=main.css.map */
