@@ -9,6 +9,8 @@
 'abstracts/variables',
 'abstracts/custom_bootstrap';
 // vendors
+@import
+'vendors/fontawesome';
 // base
 @import 
 'base/base',
@@ -17,7 +19,10 @@
 @import
 'layout/testimony',
 'layout/main',
+'layout/contact',
 'layout/navbar';
 // components
+@import
+'components/cards';
 // pages
 // themes

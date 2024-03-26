@@ -1,6 +1,8 @@
+/*INSTALADOR DE TOOLTIP*/
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
+// ALERTS
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 const appendAlert = (message, type) => {
   const wrapper = document.createElement('div')
@@ -20,3 +22,4 @@ if (alertTrigger) {
     appendAlert('Informacion enviada!', 'success')
   })
 }
+

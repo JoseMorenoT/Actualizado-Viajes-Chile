@@ -5,17 +5,21 @@
     }
 
     &__nombres {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
+        padding-top: 10px;
     }
 
     &__imagen img {
-         border-radius: 50%;
-         display: block;
-         margin-left: auto;
-         margin-right: auto;
-         border: 1px solid white;
-         width: 50px;
-         height: 50px;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid white;
+        width: 50px;
+        height: 50px;
 
     }
 }
